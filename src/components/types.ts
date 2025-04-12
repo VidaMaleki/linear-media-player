@@ -19,6 +19,13 @@ export interface PlaylistProps {
     year: number;
     tracks: Track[];
   };
-  onBack: () => void;
   onTrackSelect: (index: number) => void;
+}
+
+export interface PlayCardProps {
+    trackName: string;
+    isPlaying: boolean;
+    onPlayPause: () => void;
+    onNext: () => void;
+    onPrev: () => void;
 }

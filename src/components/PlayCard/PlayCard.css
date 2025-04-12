@@ -1,0 +1,45 @@
+.play-card-container {
+    background-color: #f2f2f2;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    min-width: 300px;
+    max-width: 400px;
+    height: fit-content;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .play-card-controls {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .play-card-controls button {
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    margin: 0 0.5rem;
+    transition: transform 0.2s;
+  }
+  
+  .play-card-controls button:hover {
+    transform: scale(1.1);
+  }
+  
+  .play-card-now-playing-label {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .play-card-track-name {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+  
