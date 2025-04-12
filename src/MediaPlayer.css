@@ -1,0 +1,54 @@
+.media-player-container {
+    padding: 2rem;
+    font-family: sans-serif;
+  }
+  
+  .media-player-title {
+    text-align: center;
+  }
+  
+  .media-player-subtitle {
+    text-align: center;
+  }
+  
+  .back-button {
+    width: fit-content;
+    height: 24px;
+    padding: 4px 8px;
+    margin: 1rem 0 0 1rem;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .media-player-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .playlist-section {
+    flex: 0.5 1 300px;
+    margin-left: 20px;
+  }
+  
+  .player-section {
+    flex: 0.5 0 300px;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .artist-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+  }
+  

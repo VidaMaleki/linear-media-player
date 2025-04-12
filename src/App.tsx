@@ -1,5 +1,7 @@
+import MediaPlayer from "./MediaPlayer";
+
 function App() {
-  return "Hello World";
+  return <MediaPlayer />;
 }
 
 export default App;
