@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import playlistsData from "./data/playlists.json";
 import Playlist from "./components/PlayList/PlayList";
 import ArtistCard from "./components/ArtistCard/ArtistCard";
