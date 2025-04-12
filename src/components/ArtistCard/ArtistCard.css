@@ -1,0 +1,33 @@
+.artist-card {
+    cursor: pointer;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    width: 140px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: border 0.2s, background 0.2s;
+  }
+  
+  .artist-card.selected {
+    border: 2px solid #444;
+    background: #f8f8f8;
+  }
+  
+  .artist-name {
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  .album-name {
+    font-size: 0.85rem;
+  }
+  
+  .year {
+    font-size: 0.75rem;
+    color: #777;
+  }
+  
